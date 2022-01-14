@@ -9,7 +9,7 @@ import seaborn as sns
 import copy
 sns.set_theme()
 
-def run_generations(NUMBER_CULT = 1000, NUMBER_MEMORY = 10, FINAL_TIME =  1000, INI_CULT = 0, ALPHA = 0.9, NUMBER_INF=4, NUMBER_JUV=8, NUMBER_FEM=12, NUMBER_MAL=6, NUMBER_PATCH = 10):
+def run_generations(NUMBER_CULT = 1000, NUMBER_MEMORY = 10, FINAL_TIME =  100000, INI_CULT = 0, ALPHA = 0.9, NUMBER_INF=4, NUMBER_JUV=8, NUMBER_FEM=12, NUMBER_MAL=6, NUMBER_PATCH = 10):
 
   #### FUNCTIONS ###
   
@@ -239,7 +239,7 @@ def culture_per_patch(all_culture, num_patch, type_classe):
 NUMBER_SIM = 10
 NUMBER_CULT = 1000
 NUMBER_MEMORY = 10
-FINAL_TIME =  1000
+FINAL_TIME =  100000
 NUMBER_INF=4
 NUMBER_JUV=8
 NUMBER_FEM=12
